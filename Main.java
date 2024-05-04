@@ -10,10 +10,10 @@ public class Main {
 
         try {
             people[0] = new Person("John Doe", 30);
-            people[1] = new Person("Emily Johnson", 25);
-            people[2] = new Person("Nathan Patel", 40);
-            people[3] = new Person("Lily Thompson", 35);
-            people[4] = new Person("Marcus Brown", 28);
+            people[1] = new Person("Emily Johnson", 27);
+            people[2] = new Person("Nathan Patel", 34);
+            people[3] = new Person("Lily Thompson", 36);
+            people[4] = new Person("Marcus Brown", 23);
         } catch (InvalidAgeException e) {
             System.out.println("Invalid age provided: " + e.getMessage());
         }
